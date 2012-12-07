@@ -1,0 +1,52 @@
+60010000		# 	daddi r1 r0 0
+60020005		# 	daddi r2 r0 5
+64030058		# 	daddiu r3 r0 base0
+64040060		# 	daddiu r4 r0 exp0
+64050068		# 	daddiu r5 r0 result0
+d4600000		# loop	l.d f0 0 r3
+dc860000		# 	ld r6 0 r4
+d4010050		# 	l.d f1 one r0
+10060003		# inner	beq r6 r0 cont
+00200831		# 	mul.d f1 f1 f0
+60c6ffff		# 	daddi r6 r6 -1
+08000008		# 	j inner
+f4a10000		# cont	s.d f1 0 r5
+64630018		# 	daddiu r3 r3 24
+64840018		# 	daddiu r4 r4 24
+64a50018		# 	daddiu r5 r5 24
+60210001		# 	daddi r1 r1 1
+1441fff3		# 	bne r1 r2 loop
+04000000		# 	halt
+00000000
+00000000		# one	.dfill 1.0
+3ff00000
+9999999a		# base0	.dfill 3.2
+40099999
+00000000		# exp0	.dfill 0
+00000000
+00000000		# result0	.dfill 0
+00000000
+9999999a		# base1	.dfill 3.7
+400d9999
+00000001		# exp1	.dfill 1
+00000000
+00000000		# result1	.dfill 0
+00000000
+cccccccd		# base2	.dfill 4.2
+4010cccc
+00000002		# exp2	.dfill 2
+00000000
+00000000		# result2	.dfill 0
+00000000
+cccccccd		# base3	.dfill 5.2
+4014cccc
+00000003		# exp3	.dfill 3
+00000000
+00000000		# result3	.dfill 0
+00000000
+00000000		# base4	.dfill 10.0
+40240000
+00000004		# exp4	.dfill 4
+00000000
+00000000		# result4	.dfill 0
+00000000

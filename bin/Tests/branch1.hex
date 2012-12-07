@@ -1,0 +1,4 @@
+10200001		# 	beq r0 r1 target
+b0000001		# 	dump 1
+b0000002		# target	dump 2
+04000000		# 	halt

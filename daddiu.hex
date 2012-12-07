@@ -1,0 +1,21 @@
+6421000a		# 	daddiu r1 r1 10
+64420014		# 	daddiu r2 r2 20
+6463001e		# 	daddiu r3 r3 30
+64840028		# 	daddiu r4 r4 40
+64a50032		# 	daddiu r5 r5 50
+64c6003c		# 	daddiu r6 r6 60
+64e70046		# 	daddiu r7 r7 70
+65080050		# 	daddiu r8 r8 80
+6529005a		# 	daddiu r9 r9 90
+654a0064		# 	daddiu r10 r10 100
+656b00c8		# 	daddiu r11 r11 200
+658c012c		# 	daddiu r12 r12 300
+65ad0190		# 	daddiu r13 r13 400
+65ce01f4		# 	daddiu r14 r14 500
+65ef0258		# 	daddiu r15 r15 600
+661002bc		# 	daddiu r16 r16 700
+66310320		# 	daddiu r17 r17 800
+66520384		# 	daddiu r18 r18 900
+667303e8		# 	daddiu r19 r19 1000
+669407d0		# 	daddiu r20 r20 2000
+04000000		# 	halt

@@ -1,0 +1,34 @@
+d4000030		# 	l.d f0 here r0
+f4000048		# 	s.d f0 store1 r0
+dc010038		# 	ld r1 there r0
+dc020040		# 	ld r2 more r0
+fc010050		# 	sd r1 store2 r0
+fc020058		# 	sd r2 store3 r0
+dc030060		# 	ld r3 addr r0
+dc640000		# 	ld r4 0 r3
+fc040070		# 	sd r4 fourtn2 r0
+dc050078		# 	ld r5 three r0
+fc050080		# 	sd r5 three2 r0
+04000000		# 	halt
+9999999a		# here	.dfill 3.7
+400d9999
+00000002		# there	.dfill 2
+00000000
+0000000f		# more	.dfill 15
+00000000
+00000000		# store1	.dfill 0
+00000000
+00000000		# store2	.dfill 0
+00000000
+00000000		# store3	.dfill 0
+00000000
+00000068		# addr	.dfill fourtn
+00000000
+0000000e		# fourtn	.dfill 14
+00000000
+00000000		# fourtn2	.dfill 0
+00000000
+00000003		# three	.dfill 3
+00000000
+00000000		# three2	.dfill 0
+00000000

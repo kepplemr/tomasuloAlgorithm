@@ -1,0 +1,62 @@
+d4000068		# 	l.d f0 num1a r0
+d4010098		# 	l.d f1 num2a r0
+0001102f		# 	add.d f2 f0 f1
+f40200c8		# 	s.d f2 resulta r0
+d4000070		# 	l.d f0 num1b r0
+d40100a0		# 	l.d f1 num2b r0
+0001102f		# 	add.d f2 f0 f1
+f40200d0		# 	s.d f2 resultb r0
+d4000078		# 	l.d f0 num1c r0
+d40100a8		# 	l.d f1 num2c r0
+0001102f		# 	add.d f2 f0 f1
+f40200d8		# 	s.d f2 resultc r0
+d4000080		# 	l.d f0 num1d r0
+d40100b0		# 	l.d f1 num2d r0
+0001102f		# 	add.d f2 f0 f1
+f40200e0		# 	s.d f2 resultd r0
+d4000088		# 	l.d f0 num1e r0
+d40100b8		# 	l.d f1 num2e r0
+0001102f		# 	add.d f2 f0 f1
+f40200e8		# 	s.d f2 resulte r0
+d4000090		# 	l.d f0 num1f r0
+d40100c0		# 	l.d f1 num2f r0
+0001102f		# 	add.d f2 f0 f1
+f40200f0		# 	s.d f2 resultf r0
+04000000		# 	halt
+00000000
+00000000		# num1a	.dfill 1.0
+3ff00000
+00000000		# num1b	.dfill 2.0
+40000000
+00000000		# num1c	.dfill 3.0
+40080000
+00000000		# num1d	.dfill 4.0
+40100000
+00000000		# num1e	.dfill 5.0
+40140000
+00000000		# num1f	.dfill 6.0
+40180000
+00000000		# num2a	.dfill 2.0
+40000000
+00000000		# num2b	.dfill 3.0
+40080000
+00000000		# num2c	.dfill 4.0
+40100000
+00000000		# num2d	.dfill 5.0
+40140000
+00000000		# num2e	.dfill 6.0
+40180000
+00000000		# num2f	.dfill 7.0
+401c0000
+00000000		# resulta	.dfill 0
+00000000
+00000000		# resultb	.dfill 0
+00000000
+00000000		# resultc	.dfill 0
+00000000
+00000000		# resultd	.dfill 0
+00000000
+00000000		# resulte	.dfill 0
+00000000
+00000000		# resultf	.dfill 0
+00000000

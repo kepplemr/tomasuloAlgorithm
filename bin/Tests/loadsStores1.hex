@@ -1,0 +1,28 @@
+d4000028		# 	l.d f0 here r0
+dc010030		# 	ld r1 there r0
+dc020038		# 	ld r2 more r0
+dc030040		# 	ld r3 num1 r0
+dc040048		# 	ld r4 num2 r0
+dc050050		# 	ld r5 num3 r0
+fc030058		# 	sd r3 dest1 r0
+fc040060		# 	sd r4 dest2 r0
+fc050068		# 	sd r5 dest3 r0
+04000000		# 	halt
+9999999a		# here	.dfill 3.7
+400d9999
+00000002		# there	.dfill 2
+00000000
+0000000f		# more	.dfill 15
+00000000
+ffffffff		# num1	.dfill -1
+ffffffff
+00000017		# num2	.dfill 23
+00000000
+0000001f		# num3	.dfill 31
+00000000
+00000000		# dest1	.dfill 0
+00000000
+00000000		# dest2	.dfill 0
+00000000
+00000000		# dest3	.dfill 0
+00000000

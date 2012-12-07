@@ -1,0 +1,5 @@
+14200002		# 	bne r0 r1 target
+b0000002		# 	dump 2
+08000004		# 	j done
+b0000001		# target	dump 1
+04000000		# done	halt

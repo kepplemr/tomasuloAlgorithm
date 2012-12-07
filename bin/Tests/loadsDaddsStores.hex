@@ -1,0 +1,62 @@
+dc030068		# 	ld r3 num1a r0
+dc040098		# 	ld r4 num2a r0
+0064282c		# 	dadd r5 r3 r4
+fc0500c8		# 	sd r5 resulta r0
+dc030070		# 	ld r3 num1b r0
+dc0400a0		# 	ld r4 num2b r0
+0064282c		# 	dadd r5 r3 r4
+fc0500d0		# 	sd r5 resultb r0
+dc030078		# 	ld r3 num1c r0
+dc0400a8		# 	ld r4 num2c r0
+0064282c		# 	dadd r5 r3 r4
+fc0500d8		# 	sd r5 resultc r0
+dc030080		# 	ld r3 num1d r0
+dc0400b0		# 	ld r4 num2d r0
+0064282c		# 	dadd r5 r3 r4
+fc0500e0		# 	sd r5 resuld r0
+dc030088		# 	ld r3 num1e r0
+dc0400b8		# 	ld r4 num2e r0
+0064282c		# 	dadd r5 r3 r4
+fc0500e8		# 	sd r5 resulte r0
+dc030090		# 	ld r3 num1f r0
+dc0400c0		# 	ld r4 num2f r0
+0064282c		# 	dadd r5 r3 r4
+fc0500f0		# 	sd r5 resultf r0
+04000000		# 	halt
+00000000
+00000001		# num1a	.dfill 1
+00000000
+00000002		# num1b	.dfill 2
+00000000
+00000003		# num1c	.dfill 3
+00000000
+00000004		# num1d	.dfill 4
+00000000
+00000005		# num1e	.dfill 5
+00000000
+00000006		# num1f	.dfill 6
+00000000
+00000002		# num2a	.dfill 2
+00000000
+00000003		# num2b	.dfill 3
+00000000
+00000004		# num2c	.dfill 4
+00000000
+00000005		# num2d	.dfill 5
+00000000
+00000006		# num2e	.dfill 6
+00000000
+00000007		# num2f	.dfill 7
+00000000
+00000000		# resulta	.dfill 0
+00000000
+00000000		# resultb	.dfill 0
+00000000
+00000000		# resultc	.dfill 0
+00000000
+00000000		# resuld	.dfill 0
+00000000
+00000000		# resulte	.dfill 0
+00000000
+00000000		# resultf	.dfill 0
+00000000

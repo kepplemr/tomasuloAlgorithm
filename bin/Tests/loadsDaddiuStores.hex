@@ -1,0 +1,44 @@
+dc030050		# 	ld r3 num1a r0
+6465fffe		# 	daddiu r5 r3 -2
+fc050080		# 	sd r5 resulta r0
+dc030058		# 	ld r3 num1b r0
+64650002		# 	daddiu r5 r3 2
+fc050088		# 	sd r5 resultb r0
+dc030060		# 	ld r3 num1c r0
+6465fffc		# 	daddiu r5 r3 -4
+fc050090		# 	sd r5 resultc r0
+dc030068		# 	ld r3 num1d r0
+64650004		# 	daddiu r5 r3 4
+fc050098		# 	sd r5 resultd r0
+dc030070		# 	ld r3 num1e r0
+6465fffa		# 	daddiu r5 r3 -6
+fc0500a0		# 	sd r5 resulte r0
+dc030078		# 	ld r3 num1f r0
+64650006		# 	daddiu r5 r3 6
+fc0500a8		# 	sd r5 resultf r0
+04000000		# 	halt
+00000000
+00000001		# num1a	.dfill 1
+00000000
+00000001		# num1b	.dfill 1
+00000000
+00000002		# num1c	.dfill 2
+00000000
+00000002		# num1d	.dfill 2
+00000000
+00000003		# num1e	.dfill 3
+00000000
+00000003		# num1f	.dfill 3
+00000000
+00000000		# resulta	.dfill 0
+00000000
+00000000		# resultb	.dfill 0
+00000000
+00000000		# resultc	.dfill 0
+00000000
+00000000		# resultd	.dfill 0
+00000000
+00000000		# resulte	.dfill 0
+00000000
+00000000		# resultf	.dfill 0
+00000000
